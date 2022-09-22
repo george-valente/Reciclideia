@@ -1,0 +1,368 @@
+/*--------------------------------------------------------------------- 
+File Name: responsive.css 
+---------------------------------------------------------------------*/
+
+@media (min-width: 1343px) and (max-width: 1500px) {
+
+}
+
+
+@media (min-width: 1200px) and (max-width: 1342px) {
+.banner_main .bluid h1 {
+    font-size: 80px;
+    line-height: 85px;
+}
+.banner_main .bluid .read_more {
+    max-width: 180px;
+}
+.services_text h3 {
+    font-size: 19px;
+    line-height: 25px;
+}
+.city h3 {
+    font-size: 24px;
+    line-height: 30px;
+}
+#testi a.carousel-control-prev {
+    top: 26%;
+}
+.banner_main {
+    height:auto;
+}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+.head_top {
+    width: 209px;
+    padding: 0 20px;
+}
+.banner_main .bluid h1 {
+    font-size: 60px;
+    line-height: 70px;
+}
+.banner_main {
+    height:auto;
+}
+.banner_main .bluid .read_more {
+    max-width: 145px;
+    margin-right: 0;
+}
+#myCarousel a.carousel-control-prev {
+    left: -21%;
+}
+#myCarousel a.carousel-control-next {
+    left: -15%;
+}
+.services_text h3 {
+    font-size: 17px;
+    line-height: 20px;
+}
+.city h3 {
+    font-size: 17px;
+    line-height: 22px;
+}
+#testi a.carousel-control-prev {
+    top: 26%;
+}
+.dist h3 {
+font-size: 20px;
+line-height: 25px;
+}
+.conta ul li {
+    font-size: 13px;
+}
+.conta ul li img {
+    padding-right: 5px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+.head_top {
+    width: 209px;
+    padding: 0 20px;
+}
+.banner_main {
+    height:auto;
+}
+.bluid {
+    margin-top: 30px;
+}
+.banner_main .bluid h1 {
+    font-size: 70px;
+    line-height: 80px;
+}
+#myCarousel a.carousel-control-prev {
+    left: -23%;
+}
+#myCarousel a.carousel-control-next {
+    left: -15%;
+}
+.pan_img {
+    padding-top: 30px;
+}
+.services_text {
+    width: 460px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.about_img figure img {
+    padding-top: 30px;
+}
+.bearch {
+    width: 370px;
+    margin: 0 auto;
+    margin-top: 30px;   
+}
+#testi a.carousel-control-prev {
+    left:inherit;
+}
+#testi a.carousel-control-next {
+    right: 0%;
+}
+.test_box {
+    padding-left: 0;
+}
+.latest {
+    width: 493px;
+    margin: 0 auto;
+    margin-top: 30px; 
+}
+.map-responsive {
+    padding-top: 30px;
+}
+.titlepage h2 {
+    font-size: 43px;
+    line-height: 45px;
+}
+  
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+.top_main {
+    display:inherit;
+}
+.head_top {
+    width: 100%;
+}
+.head_top::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0px;
+    background: url(../images/mf.png);
+    height: 100%;
+    width: 27px;
+    z-index: 9;
+}
+.banner_main {
+    height: auto;
+}
+.d_none {
+    display: none !important;
+}
+.header {
+    padding: 35px 0px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+ul.email {
+    padding-top: 0 !important;
+    margin-top: -70px !important;
+    display: flex;
+    position: relative;
+    z-index: 9999;
+    justify-content: flex-end;
+    padding-left: 0;
+}
+ul.email li {
+    padding-bottom: 0;
+    padding-right: 20px;
+}
+.header {
+    padding: 35px 0px;
+}
+.logo {
+        text-align: center;
+        display: block;
+}
+.logo a {
+    font-size: 27px;
+}
+.bluid {
+    margin-top: 70px;
+}
+.banner_main .bluid h1 {
+    font-size: 70px;
+    line-height: 80px;
+}
+.banner_main .bluid .read_more {
+    max-width: 174px;
+    margin-right: 0;
+}
+.pan_img {
+    padding-top: 30px;
+}
+#myCarousel a.carousel-control-prev {
+    left: -26%;
+}
+#myCarousel a.carousel-control-next {
+    left: -18%;
+}
+.about_img figure img {
+    padding-top: 30px;
+}
+.city h3, .services_text h3, .Informa h3 {
+    font-size: 28px;
+}
+#testi a.carousel-control-prev {
+    left:inherit;
+}
+#testi a.carousel-control-next {
+    right: 0%;
+}
+.test_box h4 {
+    padding-top: 30px;
+}
+.test_box  {
+    padding: 0;
+}
+.bearch {
+    width: 370px;
+    margin: 0 auto;
+    margin-top: 30px;   
+}
+.dist h3 {
+  font-size: 22px;  
+}
+.map-responsive {
+    padding-top: 30px;
+}
+ul.social_icon li {
+    padding-right: 1px;
+}
+.conta ul li {
+    font-size: 12px;
+}
+.conta ul li img {
+    padding-right: 5px;
+}
+.titlepage h2 {
+    font-size: 45px;
+    line-height: 50px;
+}
+
+}
+
+@media (max-width: 575px) {
+.top_main {
+    display:inherit;
+}
+.head_top {
+    width: 100%;
+}
+.head_top::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0px;
+    background: url(../images/mf.png);
+    height: 100%;
+    width: 27px;
+    z-index: 9;
+}
+.banner_main {
+    height: auto;
+}
+.d_none {
+    display: none !important;
+}
+.header {
+    padding: 35px 0px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+ul.email {
+    padding-top: 0 !important;
+    margin-top: -70px !important;
+    display: flex;
+    position: relative;
+    z-index: 9999;
+    justify-content: flex-end;
+    padding-left: 0;
+}
+ul.email li {
+    padding-bottom: 0;
+    padding-right: 20px;
+}
+.logo a {
+    font-size: 35px;
+}
+.bluid {
+    margin-top: 70px;
+}
+.banner_main .bluid h1 {
+    font-size: 55px;
+    line-height: 60px;
+}
+    .banner_main .bluid .read_more {
+    max-width: 132px;
+    height: 48px;
+    line-height: 48px;
+    font-size: 16px;
+    margin-right: 2px;
+    }
+    .pan_img {
+        padding-top: 30px;
+    }
+   #myCarousel a.carousel-control-prev {
+    left: 3%;
+    }
+    #myCarousel a.carousel-control-next {
+    left: 17%;
+}
+
+.titlepage h2 {
+    font-size: 31px;
+    line-height: 40px;
+}
+.services {
+    padding-top: 100px;
+}
+.services_text h3, .city h3, .dist h3 {
+    font-size: 17px;
+   line-height: 20px;
+}
+.about_img figure img {
+    padding-top: 30px;
+}
+
+#testi a.carousel-control-prev {
+    left:inherit;
+    right: inherit;
+}
+#testi a.carousel-control-next {
+    right: 0%;
+}
+#testi a.carousel-control-next, #testi a.carousel-control-prev {
+    top: 96%;
+}
+.test_box h4 {
+    padding-top: 30px;
+}
+.test_box  {
+    padding: 0;
+}
+.bearch {
+    width: 230px;
+    margin: 0 auto;
+    margin-top: 30px;   
+}
+.dist h3 {
+  font-size: 22px;  
+}
+.map-responsive {
+    padding-top: 30px;
+}
+    
+}
+

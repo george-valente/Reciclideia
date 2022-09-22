@@ -1,0 +1,184 @@
+/* Formatação geral */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+	font-size: 1em;
+    font-family: 'Poppins'; 
+}
+
+h2{
+    float: right;
+}
+
+/* Layout */
+#cabecalho {
+    background:  gray;
+}
+
+#area-da-logo{
+    margin: 10px;
+    float: right;
+}
+
+#area-da-configuracao {
+    padding: 10px;
+}
+
+#barra-icones{
+    width: 15%;
+    height: 40px;
+    margin-bottom: 10px;
+    position: center;
+    background: whitesmoke;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.icones{
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+}
+
+
+
+#barra-de-pesquisa{
+    border: 1px solid gray;
+    border-radius: 0.5em;
+    padding: 0.2em;
+    width: 200px;
+    margin-left: 10px;
+}
+
+form input, form button{
+    font-size: 0.8em;
+    border-radius: 0.2em;
+    border: none;
+    padding: 0.2em;
+}
+
+
+#area-principal{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.div1{
+    box-shadow: 0.5px 0.5px 1px #00008B;
+    width: 95%;
+    height: 150px;
+    margin:  0 auto;
+    padding: 1%;
+    box-shadow: 0.5px 0.5px 5px #000;
+}
+
+.postagem{
+    padding: 10px;
+    float: left;
+    margin-left: 1em;
+    width: 20%;
+}
+
+.nomes-postagem {
+    color: #26A642;
+    font-family: 'Poppins';
+    position: relative;
+    left: 450px;
+    bottom: 125px;
+}
+
+.botao-plastico{
+    border-radius: 5em;
+    border: none;
+    width: 90px;
+    height: 30px;
+    color: white;
+    font-family: 'Poppins';
+    background-color: red;
+    position: relative;
+    left: 580px;
+    bottom: 80px;
+    cursor: pointer;
+}
+
+.botao-metal{
+    border-radius: 5em;
+    border: none;
+    width: 90px;
+    height: 30px;
+    color: white;
+    font-family: 'Poppins';
+    background-color: rgb(177, 177, 43);
+    position: relative;
+    left: 580px;
+    bottom: 80px;
+    cursor: pointer;
+}
+
+.botao-vidro{
+    border-radius: 5em;
+    border: none;
+    width: 90px;
+    height: 30px;
+    color: white;
+    font-family: 'Poppins';
+    background-color: green;
+    position: relative;
+    left: 580px;
+    bottom: 80px;
+    cursor: pointer;
+
+}
+
+.botao-papel{
+    border-radius: 5em;
+    border: none;
+    width: 90px;
+    height: 30px;
+    color: white;
+    font-family: 'Poppins';
+    background-color: blue;
+    position: relative;
+    left: 580px;
+    bottom: 80px;
+    cursor: pointer;
+}
+
+
+/*rodapé*/
+footer {
+    background-color: #32D956;
+    color:  rgba(255, 255, 255, 1.0);
+    font-family: script, arial;
+    padding:  2%;
+   ;
+    text-align: center;
+    font-size: 1.6rem;
+
+
+
+    } 
+    H3 {
+     text-shadow: 1px 1px #000;
+     font-size:  1.5rem;
+     }  
+
+      H4 {
+     text-shadow: 2px 2px #000;
+     font-size:  1.5rem;
+     } 
+      p {
+     
+         font-size:  1rem;
+         text-align: justify;
+         font-family: 'Poppins';
+
+     } 
