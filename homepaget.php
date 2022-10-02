@@ -1,5 +1,5 @@
 <?php
-         //session_start();
+      //session_start();
       include('verifica_login.php');
       ?>
 
@@ -43,7 +43,7 @@
          <a href="about.html">Chat</a>
          <a href="service.html">Notícias</a>
          <a href="blog.html">Curiosidades</a>
-        <a href="contact.html">Suporte</a>
+        <a href="config.html">Configurações</a>
       </div>
       <div class="top_main">
       <div class="head_top">
@@ -83,13 +83,12 @@
                                       <h1>Reciclideia<br><span>
                                       </span></h1>
                                       <p>Um site que te dá ideias de como fazer confecções utilizando produtos que iriam para o lixo, além de ensinar a fazer o descarte de forma correta!</p>
-                                      <a class="read_more" href="Javascript:void(0)"> Sobre </a>
-                                      <a class="read_more" href="contact.html">Contato</a>
+                                      <a class="read_more" href="#nossos_servicos"> Sobre </a>
                                      </div>
                                    </div>
                                    <div class="col-lg-7">
                                       <div class="pan_img">
-                                         <figure><img src="images/2cup.png" alt="#"/></figure>
+                                         <figure><img src="images/logo.png" alt="#"/></figure>
                                       </div>
                                    </div>
                                 </div>
@@ -102,11 +101,9 @@
                                <div class="row">
                                    <div class="col-lg-5">
                                      <div class="bluid">
-                                      <h1>Wedding <br><span>House 
-                                      </span></h1>
-                                      <p>There are many variations of passages of Lorem Ipsum available, but the majority haveThere are many variations of passages of Lorem Ipsum availabl</p>
-                                      <a class="read_more" href="Javascript:void(0)">About </a>
-                                      <a class="read_more" href="contact.html">Contact</a>
+                                      <h1>Sobre o <br><span>Site</span></h1>
+                                      <p>Aperte em Sobre para obter mais informações sobre os objetivos e propósitos do site Reciclideia</p>
+                                      <a class="read_more" href="#sobre">Sobre </a>
                                      </div>
                                    </div>
                                    <div class="col-lg-7">
@@ -124,11 +121,73 @@
                                 <div class="row">
                                    <div class="col-lg-5">
                                      <div class="bluid">
-                                      <h1>Wedding <br><span>House 
+                                      <h1>Notícias <br><span> 
                                       </span></h1>
-                                      <p>There are many variations of passages of Lorem Ipsum available, but the majority haveThere are many variations of passages of Lorem Ipsum availabl</p>
-                                      <a class="read_more" href="Javascript:void(0)">About </a>
-                                      <a class="read_more" href="contact.html">Contact</a>
+                                      <p>Fique por dentro das notícias do Meio ambiente e Reciclagem em Manaus e no Amazonas!</p>
+                                      <a class="read_more" href="#noticias">Sobre </a>
+                                     </div>
+                                   </div>
+                                   <div class="col-lg-7">
+                                      <div class="pan_img">
+                                         <figure><img src="images/2cup.png" alt="#"/></figure>
+                                      </div>
+                                   </div>
+                                </div>
+                              </div>
+                           </div>
+                        </div>
+						 <div class="carousel-item">
+                           <div class="container">
+                              <div class="carousel-caption relative">
+                                <div class="row">
+                                   <div class="col-lg-5">
+                                     <div class="bluid">
+                                      <h1>Equipe <br><span> 
+                                      </span></h1>
+                                      <p>Equipe de desenvolvedores do Reciclideia</p>
+                                      <a class="read_more" href="#equipe">Sobre </a>
+                                     </div>
+                                   </div>
+                                   <div class="col-lg-7">
+                                      <div class="pan_img">
+                                         <figure><img src="images/2cup.png" alt="#"/></figure>
+                                      </div>
+                                   </div>
+                                </div>
+                              </div>
+                           </div>
+                        </div>
+						 <div class="carousel-item">
+                           <div class="container">
+                              <div class="carousel-caption relative">
+                                <div class="row">
+                                   <div class="col-lg-5">
+                                     <div class="bluid">
+                                      <h1>Parceiros <span>
+                                      </span></h1>
+                                      <p>Conheça nossos parceiros na Reciclagem. </p>
+                                      <a class="read_more" href="#parceiros">Sobre </a>
+                                     </div>
+                                   </div>
+                                   <div class="col-lg-7">
+                                      <div class="pan_img">
+                                         <figure><img src="images/2cup.png" alt="#"/></figure>
+                                      </div>
+                                   </div>
+                                </div>
+                              </div>
+                           </div>
+                        </div>
+						 <div class="carousel-item">
+                           <div class="container">
+                              <div class="carousel-caption relative">
+                                <div class="row">
+                                   <div class="col-lg-5">
+                                     <div class="bluid">
+                                      <h1>Fale <br><span>Conosco 
+                                      </span></h1>
+                                      <p>Nos mande sua dúvida ou sugestão, será de grande ajuda!</p>
+                                      <a class="read_more" href="#contatos">Sobre </a>
                                      </div>
                                    </div>
                                    <div class="col-lg-7">
@@ -153,6 +212,7 @@
         </div>
       <!-- end slider section -->
        <!-- services -->
+	  <a name="nossos_servicos"></a>
       <div class="services padd_rl30">
          <div class="container">
             <div class="row">
@@ -165,33 +225,35 @@
                   <div class="row">
                      <div class="col-lg-4">
                         <div class="services_text">
-                            <i><img src="images/service1.png" alt="#"/></i>
+                            <i><img src="images/Ideias.png" alt="#"/></i>
                             <h3>Ideias de confecções</h3>
                             <p>Confira aqui ideias do que fazer com materais que você descartaria</p>
                             </div>
-                           <a class="read_more" href="services.html">Read More</a>
+                           <a class="read_more" href="services.html">Descubra mais</a>
                      </div>
                      <div class="col-lg-4">
                         <div class="services_text">
-                            <i><img src="images/service2.png" alt="#"/></i>
+                            <i><img src="images/Chat.png" alt="#"/></i>
                             <h3> Chat para interação</h3>
                             <p>Poste suas confecções com materiais recicláveis e interaja com outros usuários</p>
                             </div>
-                           <a class="read_more" href="services.html">Read More</a>
+                           <a class="read_more" href="services.html">Descubra mais</a>
                      </div>
                      <div class="col-lg-4">
                         <div class="services_text">
-                            <i><img src="images/service3.png" alt="#"/></i>
-                            <h3>Notícias sobre reciclagem</h3>
+                            <i><img src="images/PontosC.png" alt="#"/></i>
+                            <h3>Pontos de reciclagem</h3>
                             <p>Fique por dentro das notícias sobre a reciclagem em Manaus e no Amazonas</p>
                             </div>
-                           <a class="read_more" href="services.html">Read More</a>
+                           <a class="read_more" href="services.html">Descubra mais</a>
                      </div>
                   </div>
                </div>
             </div>
       <!-- end services -->
+
       <!-- about -->
+	  <a name="sobre"></a>
       <div  class="about padd_rl30">
          <div class="container">
           <div class="row">
@@ -204,26 +266,29 @@
           <div class="row">
                <div class="col-lg-8">
                   <div class="about_text text_align_left">
-                        <p>O reciclideia surgiu pela preocupação com a condição do meio ambiente em Manaus. Através de ideias e notícias, o site tem o objetivo de conscientizar os cidadãos a respeito da grande quantidade de lixo que é jogada, e como reaproveitar alguns materiais.</p>
+                        <p>O Reciclideia surgiu pela preocupação com a condição do meio ambiente em Manaus. Através de ideias e notícias, o site tem o objetivo de conscientizar os cidadãos a respeito da grande quantidade de lixo que é jogada, e como reaproveitar alguns materiais.</p>
                        <a class="read_more" href="about.html">Read More</a>
                   </div>
                </div>
                <div class="col-lg-4">
                   <div class="about_img">
-                     <figure><img class="img_responsive" src="images/about1.png" alt="#"/></figure>
+                     <figure><img class="img_responsive" src="images/logo.png" alt="#"/></figure>
                   </div>
                </div>
             </div>
          </div>
       </div>
       <!-- end about -->
-      <!-- locations -->
+
+      <!-- notícias -->
+	  <a name="noticias"></a>
       <div class="locations padd_rl30">
          <div class="container">
             <div class="row">
                <div class="col-md-12">
                   <div class="titlepage text_align_left">
-                     <h2>Locations</h2>
+                     <a name="noticias"></a>
+					 <h2>Notícias</h2>
                   </div>
                </div>
             </div>
@@ -261,14 +326,16 @@
             </div>
          </div>
       </div>
-      <!-- end locations -->
-       <!-- clients -->
+      <!-- fim notícias -->
+
+       <!-- equipe -->
+       <a name="equipe"></a>
       <div class="clients padd_rl30">
         <div class="container">
           <div class="row">
             <div class="col-sm-12">
               <div class="titlepage text_align_center">
-                <h2>Testimonial</h2>
+                <h2>Equipe</h2>
               </div>
             </div>
           </div>
@@ -292,8 +359,27 @@
                            </div>
                            <div class="col-md-9">
                               <div class="test_box text_align_left">
-                                 <h4>randomised</h4>
-                                 <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or  words which don't look even slightly believable. If you are going</p>
+                                 <h4>Amanda Teles</h4>
+                                 <p>Oi! Eu sou a Amanda...</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <div class="container">
+                     <div class="carousel-caption testi">
+                        <div class="row d_flex">
+                           <div class="col-md-3">
+                              <div class="pro_file">
+                                 <i><img class="text_align_right" src="images/valr.jpg" alt="#"/></i>
+                              </div>
+                           </div>
+                           <div class="col-md-9">
+                              <div class="test_box text_align_left">
+                                 <h4>George Valente</h4>
+                                 <p>Oi! Eu sou o George... </p>
                               </div>
                            </div>
                         </div>
@@ -311,29 +397,8 @@
                            </div>
                            <div class="col-md-9">
                               <div class="test_box text_align_left">
-                                 <h4>randomised</h4>
-                                 <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or  words which don't look even slightly believable. If you are going</p>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="carousel-item">
-                  <div class="container">
-                     <div class="carousel-caption testi">
-                        <div class="row d_flex">
-                           <div class="col-md-3">
-                              <div class="pro_file">
-                                 <i><img class="text_align_right" src="images/test2.png" alt="#"/></i>
-                              </div>
-                           </div>
-                           <div class="col-md-9">
-                              <div class="test_box text_align_left">
-                                 <h4>randomised</h4>
-                                 <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or  words which don't look even slightly believable. If you are going</p>
-                              </div>
-                           </div>
+                                 <h4>Sarah Vitória</h4>
+                                 <p>Oi! Eu sou a Vitória... </div>
                         </div>
                      </div>
                   </div>
@@ -349,14 +414,16 @@
             </a>
          </div>
       </div>
-      <!-- end clients -->
-      <!-- news -->
+      <!-- fim equipe -->
+
+      <!-- parceiros -->
+	  <a name="parceiros"></a>
       <div class="news padd_rl30">
          <div class="container">
             <div class="row">
                <div class="col-md-12">
                   <div class="titlepage text_align_left">
-                     <h2>Latest <span>News</span></h2>
+                     <h2>Parceiros na <span>Reciclagem</span></h2>
                   </div>
                </div>
             </div>
@@ -384,14 +451,16 @@
             </div>
          </div>
       </div>
-      <!-- end news -->
-      <!-- contact -->
+      <!-- fim parceiros -->
+      
+      <!-- fale conosco -->
+      <a name="contatos"></a>
       <div class="contact padd_rl30">
          <div class="container">
            <div class="row">
              <div class="col-md-12">
                   <div class="titlepage text_align_left">
-                     <h2>Get In Touch</h2>
+                     <h2>Fale Conosco</h2>
                   </div>
                </div>
            </div>
@@ -400,26 +469,26 @@
                   <form id="request" class="main_form">
                      <div class="row">
                         <div class="col-md-12 ">
-                           <input class="contactus" placeholder="Your name" type="type" name=" Name"> 
+                           <input class="contactus" placeholder="Seu nome" type="type" name=" Name"> 
                         </div>
                         <div class="col-md-12">
-                           <input class="contactus" placeholder="Phone Number" type="type" name="Phone Number">                       
+                           <input class="contactus" placeholder="Celular" type="type" name="Phone Number">                       
                         </div>
                         <div class="col-md-12">
                            <input class="contactus" placeholder="Email" type="type" name="Email">                          
                         </div>
                         <div class="col-md-12">
-                           <textarea class="textarea" placeholder="Message" type="type" Message="Name"></textarea>
+                           <textarea class="textarea" placeholder="Mensagem" type="type" Message="Name"></textarea>
                         </div>
                         <div class="col-md-12">
-                           <button class="send_btn">Send</button>
+                           <button class="send_btn">Enviar</button>
                         </div>
                      </div>
                   </form>
                </div>
                <div class="col-lg-6">
                   <div class="map-responsive">
-                    <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&amp;q=Eiffel+Tower+Paris+France" width="600" height="440" frameborder="0" style="border:0; width: 100%;" allowfullscreen=""></iframe>
+                    <iframe src="https://goo.gl/maps/SJF3bj8hyELGZUybA" width="600" height="440" frameborder="0" style="border:0; width: 100%;" allowfullscreen=""></iframe>
                   </div>
                </div>
             </div>
