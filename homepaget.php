@@ -267,7 +267,7 @@
                <div class="col-lg-8">
                   <div class="about_text text_align_left">
                         <p>O Reciclideia surgiu pela preocupação com a condição do meio ambiente em Manaus. Através de ideias e notícias, o site tem o objetivo de conscientizar os cidadãos a respeito da grande quantidade de lixo que é jogada, e como reaproveitar alguns materiais.</p>
-                       <a class="read_more" href="about.html">Read More</a>
+                       
                   </div>
                </div>
                <div class="col-lg-4">
@@ -297,31 +297,31 @@
                   <div class="bearch text_align_left">
                     <figure><img src="images/loca.jpg" alt="#"/></figure>
                     <div class="city">
-                    <h3>City wedding</h3>
-                    <p>Eum iriure dolor in hendrerit in vulputate velit esse molestie con sequat, vel illum dolore eu </p>
+                    <h3>Geração de lixo</h3>
+                    <p>Descarte de lixo tem um aumento de 70% em comparação a 2016, os dados são alarmantes</p>
                     </div>
                   </div>
-                  <a class="read_more" href="locations.html">Read More</a>
+                  <a class="read_more" href="https://www.cnnbrasil.com.br/internacional/geracao-de-residuos-no-mundo-deve-chegar-a-34-bilhoes-de-toneladas-por-ano-ate-2050/">Saiba mais</a>
                </div>
                <div class="col-lg-4">
                   <div class="bearch text_align_left">
                     <figure><img src="images/loca1.jpg" alt="#"/></figure>
                     <div class="city">
-                    <h3>Beach wedding</h3>
-                    <p>Eum iriure dolor in hendrerit in vulputate velit esse molestie con sequat, vel illum dolore eu </p>
+                    <h3>Lixo no mar</h3>
+                    <p>Estudos apontam que 70% do lixo nos mares do Brasil são plástico. </p>
                     </div>
                   </div>
-                  <a class="read_more" href="locations.html">Read More</a>
+                  <a class="read_more" href="https://epocanegocios.globo.com/Brasil/noticia/2021/03/estudo-mostra-que-70-dos-residuos-do-mar-brasileiro-sao-plastico.html">Saiba mais</a>
                </div>
                <div class="col-lg-4">
                   <div class="bearch text_align_left">
                     <figure><img src="images/loca2.jpg" alt="#"/></figure>
                     <div class="city">
-                    <h3>Country wedding</h3>
-                    <p>Eum iriure dolor in hendrerit in vulputate velit esse molestie con sequat, vel illum dolore eu </p>
+                    <h3>Reciclagem no Brasil</h3>
+                    <p>País apresenta índice preocupante de reciclagem, 4%, segundo ABRELPE.</p>
                     </div>
                   </div>
-                  <a class="read_more" href="locations.html">Read More</a>
+                  <a class="read_more" href="https://epocanegocios.globo.com/Um-So-Planeta/noticia/2022/06/indice-de-reciclagem-no-brasil-e-de-apenas-4-diz-abrelpe.html">Saiba mais</a>
                </div>
             </div>
          </div>
@@ -430,23 +430,23 @@
             <div class="row">
                <div class="col-lg-6">
                   <div class="latest text_align_left">
-                    <figure><img src="images/news1.png" alt="#"/></figure>
+                    <figure><img src="images/terracycle.jpg" alt="#"/></figure>
                     <div class="dist">
-                    <h3>Eader will be distracted by the read</h3>
-                    <p>established fact that a rable content of a page when looking at its layout. The point of using Lorem Ipsumeader will be distracted by the read</p>
+                    <h3>Conheça a Terracycle</h3>
+                    <p>Uma instituição que trabalha há anos para encontrar soluções do descarte de lixos de difícil reciclabilidade.</p>
                     </div>
                   </div>
-                  <a class="read_more" href="news.html">Read More</a>
+                  <a class="read_more" href="https://www.terracycle.com/pt-BR">Saiba mais</a>
                </div>
                <div class="col-lg-6">
                   <div class="latest text_align_left">
-                    <figure><img src="images/news2.png" alt="#"/></figure>
+                    <figure><img src="images/breciclagem.png" alt="#"/></figure>
                     <div class="dist">
-                    <h3>Eader will be distracted by the read</h3>
-                    <p>established fact that a rable content of a page when looking at its layout. The point of using Lorem Ipsumeader will be distracted by the read</p>
+                    <h3>Conheça a Brasil Reciclagem</h3>
+                    <p>Um mercado de destinação ambientalmente correto de resíduos.</p>
                     </div>
                   </div>
-                  <a class="read_more" href="news.html">Read More</a>
+                  <a class="read_more" href="https://brasilreciclagem.com.br/">Saiba mais</a>
                </div>
             </div>
          </div>
@@ -506,10 +506,10 @@
                         <h3>Menu</h3>
                         <ul>
                            <li><a href="index.html">Início</a></li>
-                           <li><a href="about.html">Sobre</a></li>
-                           <li><a href="service.html">Serviços</a></li>
-                           <li><a href="blog.html">Chat</a></li>
-                           <li><a href="contact.html">Contato</a></li>
+                           <li><a href="about.html">Serviços</a></li>
+                           <li><a href="service.html">Sobre</a></li>
+                           <li><a href="blog.html">Notícias</a></li>
+                           <li><a href="contact.html">Parceiros</a></li>
                         </ul>
                      </div>
                   </div>
@@ -517,8 +517,8 @@
                      <div class="Informa conta">
                         <h3>Contatos</h3>
                         <ul>
-                           <li> <img src="images/loc.png" alt="#"/> 104 loram ipusm</li>
-                           <li> <a href="Javascript:void(0)"><img src="images/call.png" alt="#"/> ( +71 69582478 )</a></li>
+                           <li> <img src="images/loc.png" alt="#"/> IFAM CMC</li>
+                           <li> <a href="Javascript:void(0)"><img src="images/call.png" alt="#"/> ( +92 994499328 )</a></li>
                            <li> <a href="Javascript:void(0)"> <img src="images/mail.png" alt="#"/> reciclideia@gmail.com</a></li>
                         </ul>
                      </div>
@@ -526,22 +526,22 @@
                  
                   <div class="col-lg-3 col-md-6 col-sm-6">
                      <div class="Informa conta">
-                        <h3>Social Link</h3>
+                        <h3>Redes sociais</h3>
                        <ul class="social_icon text_align_center">
                         <li> <a href="Javascript:void(0)"><i class="fa fa-facebook-f"></i></a></li>
                         <li> <a href="Javascript:void(0)"><i class="fa fa-twitter"></i></a></li>
                         <li> <a href="Javascript:void(0)"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-                        <li> <a href="Javascript:void(0)"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        <li> <a href="https://www.instagram.com/_amandita_teles/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                      </ul>
                      </div>
                     
                   </div>
                    <div class="col-lg-3 col-md-6 col-sm-6">
                       <div class="Informa helpful">
-                        <h3>Newsletter</h3>
+                        <h3>Jornal</h3>
                          <form class="newslatter_form">
-                        <input class="ente" placeholder="Enter Your email" type="text" name="Enter your email">
-                        <button class="subs_btn">Subscribe</button>
+                        <input class="ente" placeholder="Digite seu E-mail" type="text" name="Enter your email">
+                        <button class="subs_btn">Inscrever-se</button>
                      </form>
                      </div>
                   </div>
