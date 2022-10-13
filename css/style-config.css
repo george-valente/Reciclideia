@@ -8,7 +8,7 @@
 body {
     display: flex;
     justify-content: center;
-    background-color: #fff;
+    background-color: #caf283;
     padding-top: 5vh;
     align-items: center;
     min-height: 100vh;
@@ -24,6 +24,10 @@ body {
 	box-shadow: 3px 7px 10px #000;
 }
 
+#area-de-voltar {
+    padding: 10px;
+}
+
 .config{
     position: relative;
     width: 100%;
@@ -34,12 +38,13 @@ body {
 
 h2{
     color: #000;
-    font-size: 25px;
+    font-size: 30px;
     margin: 20px;
     text-align: center;
 }
 
-img{
+#imagem-perfil {
+    text-align: center;
     height: 5%;
     padding: 5;
     margin: auto;
@@ -86,7 +91,15 @@ input[type=submit]{
 #desativar-conta{
     font-size: 1em;
     color: black;
-    margin-left: 7px;
+    margin-left: 10px;
+    margin-bottom: 7px;
+    padding: 30px;
+}
+
+#trocar-senha{
+    font-size: 1em;
+    color: black;
+    margin-left: 10px;
     margin-bottom: 7px;
     padding: 30px;
 }

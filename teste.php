@@ -1,6 +1,7 @@
-<?php
-// Destrói a sessão
-session_destroy();
-?>
+<?php 
+session_start();
 
-<a id="sair-conta" href="index.php"> Página inicial </a> <br>
+session_unset();
+session_destroy();
+
+header("Location: index.php");

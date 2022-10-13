@@ -25,7 +25,7 @@ if($conexao->query($sql) === TRUE) {
 
 $conexao->close();
 
-header('Location: cadastro.html');
+header('Location: index.php');
 exit;
 ?>
 

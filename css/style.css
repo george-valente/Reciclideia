@@ -141,6 +141,7 @@ a,
 img {
      max-width: 100%;
      height: auto;
+     
 }
 
  :focus {
@@ -492,7 +493,6 @@ ul.email li a {
      opacity: 1;
      background: #fff;
 }
-
 
 
 

@@ -14,13 +14,9 @@ body {
     min-height: 100vh;
 }
 
-p {
-    padding: 30px;
-}
-
 .main{
 	width: 350px;
-	height: 450px;
+	height: 500px;
 	background: red;
 	overflow: hidden;
 	background: url("https://doc-08-2c-docs.googleusercontent.com/docs/securesc/68c90smiglihng9534mvqmq1946dmis5/fo0picsp1nhiucmc0l25s29respgpr4j/1631524275000/03522360960922298374/03522360960922298374/1Sx0jhdpEpnNIydS4rnN4kHSJtU1EyWka?e=view&authuser=0&nonce=gcrocepgbb17m&user=03522360960922298374&hash=tfhgbs86ka6divo3llbvp93mg4csvb38") no-repeat center/ cover;
@@ -28,18 +24,18 @@ p {
 	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.esqueci-minha-senha{
+.trocar-senha{
     position: relative;
     width: 100%;
     height: 100%;
-
 }
+
 
 label{
     justify-content: center;
     display: flex;
     margin: 20px;
-    font-size: 2.3em;
+    font-size: 1.6em;
     font-weight: bold;
 
 }
@@ -57,16 +53,16 @@ input{
 
 /*::placeholder{
     font-size: 15px;
-    /padding: 5px; */
+    padding: 5px;
     
-
+}*/
 
 .inputForm{
     border-radius:20px;
     border: none;
     -moz-border-radius:20px;
     -webkit-border-radius:20px;
- } 
+ }
 
 .imagens{
     height: 5%;
@@ -75,43 +71,21 @@ input{
     display: block;
 
 }
-.cursor {
-    cursor: pointer;
-}
-
- /* #recupera-senha{
-    margin: 7px;
-    padding: 5px;
-    color: rgba(0, 0, 0, 0.795);
-    text-decoration: underline;
-} */
-
- #cria-conta{
-    margin: 7px;
-    padding: 5px;
-    color: brown;
-} 
 
 input[type=submit]{
     border-radius: 10px;
     border-color: gray;
     background-color: whitesmoke;
-    width: 130px;
+    width: 150px;
     cursor: pointer;
 }
 
-a{
-    text-decoration: none;
-}
 
-
-#links a:link, a:visited{
-    color: #000;
+#voltar-config{
+    font-size: 1em;
+    color: brown;
+    margin-left: 7px;
+    margin-bottom: 7px;
     padding: 30px;
-
-}
-
-a:hover{
-    text-decoration: underline;
 }
 

@@ -39,11 +39,11 @@
       <!-- end loader -->
       <div id="mySidepanel" class="sidepanel">
          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-         <a class="active" href="index.html">Home</a>
+         <a class="active" href="homepaget.php">Home</a>
          <a href="about.html">Chat</a>
          <a href="service.html">Notícias</a>
          <a href="blog.html">Curiosidades</a>
-        <a href="config.html">Configurações</a>
+        <a href="config.php">Configurações</a>
       </div>
       <div class="top_main">
       <div class="head_top">
@@ -58,8 +58,7 @@
                 
                      <ul class="email text_align_right">
                         <li> <button class="openbtn" onclick="openNav()"><img src="images/menu_btn.png"></button></li>
-                        <li> <a href="javascript:void(0)"><i class="fa fa-search" aria-hidden="true"></i></a></li>
-                        <li> <a href="javascript:void(0)"><i class="fa fa-user" aria-hidden="true"></i></a></li>
+                        
                      </ul>
       </header>
     </div>
@@ -73,6 +72,7 @@
                         <li data-target="#myCarousel" data-slide-to="1"></li>
                         <li data-target="#myCarousel" data-slide-to="2"></li>
                      </ol>
+                     <a name="inicio"></a>
                      <div class="carousel-inner">
                         <div class="carousel-item active">
                            <div class="container">
@@ -108,7 +108,8 @@
                                    </div>
                                    <div class="col-lg-7">
                                       <div class="pan_img">
-                                         <figure><img src="images/2cup.png" alt="#"/></figure>
+
+                                         <figure><img src="images/logo.png" alt="#"/></figure> 
                                       </div>
                                    </div>
                                 </div>
@@ -129,7 +130,7 @@
                                    </div>
                                    <div class="col-lg-7">
                                       <div class="pan_img">
-                                         <figure><img src="images/2cup.png" alt="#"/></figure>
+                                         <figure><img src="images/logo.png" alt="#"/></figure>
                                       </div>
                                    </div>
                                 </div>
@@ -150,7 +151,7 @@
                                    </div>
                                    <div class="col-lg-7">
                                       <div class="pan_img">
-                                         <figure><img src="images/2cup.png" alt="#"/></figure>
+                                         <figure><img src="images/logo.png" alt="#"/></figure>
                                       </div>
                                    </div>
                                 </div>
@@ -171,7 +172,7 @@
                                    </div>
                                    <div class="col-lg-7">
                                       <div class="pan_img">
-                                         <figure><img src="images/2cup.png" alt="#"/></figure>
+                                         <figure><img src="images/logo.png" alt="#"/></figure>
                                       </div>
                                    </div>
                                 </div>
@@ -192,7 +193,7 @@
                                    </div>
                                    <div class="col-lg-7">
                                       <div class="pan_img">
-                                         <figure><img src="images/2cup.png" alt="#"/></figure>
+                                         <figure><img src="images/logo.png" alt="#"/></figure>
                                       </div>
                                    </div>
                                 </div>
@@ -229,7 +230,7 @@
                             <h3>Ideias de confecções</h3>
                             <p>Confira aqui ideias do que fazer com materais que você descartaria</p>
                             </div>
-                           <a class="read_more" href="services.html">Descubra mais</a>
+                           <a class="read_more" href="ideias.html">Descubra mais</a>
                      </div>
                      <div class="col-lg-4">
                         <div class="services_text">
@@ -272,7 +273,7 @@
                </div>
                <div class="col-lg-4">
                   <div class="about_img">
-                     <figure><img class="img_responsive" src="images/logo.png" alt="#"/></figure>
+                     <figure><img class="img_responsive" src="images/logo-sombra.jpeg" alt="#"/></figure>
                   </div>
                </div>
             </div>
@@ -295,7 +296,8 @@
             <div class="row">
                <div class="col-lg-4">
                   <div class="bearch text_align_left">
-                    <figure><img src="images/loca.jpg" alt="#"/></figure>
+                    <figure><img src="images/lixo-cidade.jpg" alt="#"/></figure>
+                    <h7>(Imagem: istock.com / Kroshanosha)</h7>
                     <div class="city">
                     <h3>Geração de lixo</h3>
                     <p>Descarte de lixo tem um aumento de 70% em comparação a 2016, os dados são alarmantes</p>
@@ -305,7 +307,8 @@
                </div>
                <div class="col-lg-4">
                   <div class="bearch text_align_left">
-                    <figure><img src="images/loca1.jpg" alt="#"/></figure>
+                    <figure><img src="images/lixo-mar.jpg" alt="#"/></figure>
+                    <h7>(Foto: Divulgação/Ricardo Gomes/Instituto Mar Urbano)</h7>
                     <div class="city">
                     <h3>Lixo no mar</h3>
                     <p>Estudos apontam que 70% do lixo nos mares do Brasil são plástico. </p>
@@ -315,7 +318,7 @@
                </div>
                <div class="col-lg-4">
                   <div class="bearch text_align_left">
-                    <figure><img src="images/loca2.jpg" alt="#"/></figure>
+                    <figure><img src="images/reciclagem.jpg" alt="#"/></figure>
                     <div class="city">
                     <h3>Reciclagem no Brasil</h3>
                     <p>País apresenta índice preocupante de reciclagem, 4%, segundo ABRELPE.</p>
@@ -354,13 +357,15 @@
                         <div class="row d_flex">
                            <div class="col-md-3">
                               <div class="pro_file">
-                                 <i><img class="text_align_right" src="images/test2.png" alt="#"/></i>
+                                 <i><img class="text_align_right" src="images/foto-amanda.jpg" alt="#"/></i>
                               </div>
                            </div>
                            <div class="col-md-9">
                               <div class="test_box text_align_left">
                                  <h4>Amanda Teles</h4>
-                                 <p>Oi! Eu sou a Amanda...</p>
+                                 <p>Oi! Eu sou a Amanda, tenho 18 anos e curso informática no IFAM. Pretendo seguir nesta área, e vou me esforçar para atingir meus objetivos. 
+                                    Posso afirmar que o Reciclideia cooperou muito para meu desenvolvimento<br>
+                                    pessoal e profissional. </p>
                               </div>
                            </div>
                         </div>
@@ -373,13 +378,13 @@
                         <div class="row d_flex">
                            <div class="col-md-3">
                               <div class="pro_file">
-                                 <i><img class="text_align_right" src="images/valr.jpg" alt="#"/></i>
+                                 <i><img class="text_align_right" src="images/foto-george.jpg" alt="#"/></i>
                               </div>
                            </div>
                            <div class="col-md-9">
                               <div class="test_box text_align_left">
                                  <h4>George Valente</h4>
-                                 <p>Oi! Eu sou o George... </p>
+                                 <p>Oi! Eu sou o George, tenho 18 anos e sou aluno do IFAM CMC. Sou um dos desenvolvedores  do Site Reciclideia. </p>
                               </div>
                            </div>
                         </div>
@@ -392,13 +397,14 @@
                         <div class="row d_flex">
                            <div class="col-md-3">
                               <div class="pro_file">
-                                 <i><img class="text_align_right" src="images/test2.png" alt="#"/></i>
+                                 <i><img class="text_align_right" src="images/foto-sarah.jpg" alt="#"/></i>
                               </div>
                            </div>
                            <div class="col-md-9">
                               <div class="test_box text_align_left">
                                  <h4>Sarah Vitória</h4>
-                                 <p>Oi! Eu sou a Vitória... </div>
+                                 <p>Oi! Eu sou a Vitória, tenho 18 anos. Sempre gostei muito de reciclagem, <br>
+                                    então trabalhar neste site foi muito prazeroso pra mim. </div>
                         </div>
                      </div>
                   </div>
@@ -430,13 +436,13 @@
             <div class="row">
                <div class="col-lg-6">
                   <div class="latest text_align_left">
-                    <figure><img src="images/terracycle.jpg" alt="#"/></figure>
+                    <figure><img src="images/reciclarpelobr.png" alt="#"/></figure>
                     <div class="dist">
-                    <h3>Conheça a Terracycle</h3>
-                    <p>Uma instituição que trabalha há anos para encontrar soluções do descarte de lixos de difícil reciclabilidade.</p>
+                    <h3>Conheça a Reciclar pelo  Brasil</h3>
+                    <p>Uma plataforma que luta e trabalha pela melhoria do trabalho de cooperativas e associações de catadores de materiais recicláveis. </p>
                     </div>
                   </div>
-                  <a class="read_more" href="https://www.terracycle.com/pt-BR">Saiba mais</a>
+                  <a class="read_more" href="https://www.terracycle.com/pt-BR">Acesse aqui</a>
                </div>
                <div class="col-lg-6">
                   <div class="latest text_align_left">
@@ -446,7 +452,7 @@
                     <p>Um mercado de destinação ambientalmente correto de resíduos.</p>
                     </div>
                   </div>
-                  <a class="read_more" href="https://brasilreciclagem.com.br/">Saiba mais</a>
+                  <a class="read_more" href="https://brasilreciclagem.com.br/">Acesse aqui</a>
                </div>
             </div>
          </div>
@@ -505,11 +511,11 @@
                      <div class="Informa helpful">
                         <h3>Menu</h3>
                         <ul>
-                           <li><a href="index.html">Início</a></li>
+                           <li><a href="#inicio">Início</a></li>
                            <li><a href="about.html">Serviços</a></li>
                            <li><a href="service.html">Sobre</a></li>
                            <li><a href="blog.html">Notícias</a></li>
-                           <li><a href="contact.html">Parceiros</a></li>
+                           <li><a href="#parceiros">Parceiros</a></li>
                         </ul>
                      </div>
                   </div>

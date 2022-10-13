@@ -13,18 +13,19 @@
         <div class="main">
         
             <div class="centralizar">
-                <img class="imagens" width="100px" src="images/logo.png">
+                <img id="imagem-logo" width="100px" src="images/logo.png">
    
 
                     <div class="login"></div>
 
                     <form action="login.php" method="post">
+                        <h2>Reciclideia</h2>
                         <label> Fazer login </label>
                         <input class="inputForm" id="usuario" placeholder="Usuário" type="text" name="usuario">
                 <br> 
                         <input class="inputForm" id="senha" placeholder="Senha" type="password" name="senha">
                 <br>
-                        <input type="submit" id="btn-submit" value="Fazer Login" name="submit">
+                        <input type="submit" id="btn-submit" value="Entrar" name="submit">
                     </form> 
                 <br>
 

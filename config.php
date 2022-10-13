@@ -1,3 +1,8 @@
+<?php
+      //session_start();
+      include('verifica_login.php');
+      ?>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -12,11 +17,18 @@
         
             <div class="centralizar">
 
+                <div id="area-de-voltar"> 
+                    <img width="40px" src="images/voltar.png">
+                </div>
+
         <h2>Meu Perfil</h2> 
 
-        <img src="images/foto-perfil.png"> <br>
+        <div id="imagem-perfil">
+        <img src="images/foto-perfil.png"> <br> 
+        </div>
 
         <div class="config"></div>
+
 
                     <form action="" method="post">
                         <input class="inputForm" placeholder="Trocar Usuário" type="text" name="usuario">
@@ -28,8 +40,11 @@
                     </form> <br>
 
                 
-                    <a id="sair-conta" href="teste.php"> Sair </a> <p /> 
+                    <a id="sair-conta" href="teste.php"> Sair </a> 
                     <a id="desativar-conta" href="desativar.html"> Desativar minha conta </a> 
+                    <a id="trocar-senha" href="trocar-senha.php">Trocar senha</a> 
+
+                </div>
                 
 
 
