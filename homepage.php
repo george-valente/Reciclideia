@@ -39,7 +39,7 @@
       <!-- end loader -->
       <div id="mySidepanel" class="sidepanel">
          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-         <a class="active" href="homepaget.php">Home</a>
+         <a class="active" href="homepage.php">Home</a>
          <a href="about.html">Chat</a>
          <a href="service.html">Notícias</a>
          <a href="blog.html">Curiosidades</a>
@@ -246,7 +246,7 @@
                             <h3>Pontos de reciclagem</h3>
                             <p>Fique por dentro das notícias sobre a reciclagem em Manaus e no Amazonas</p>
                             </div>
-                           <a class="read_more" href="services.html">Descubra mais</a>
+                           <a class="read_more" href="pontos-coleta.html">Descubra mais</a>
                      </div>
                   </div>
                </div>

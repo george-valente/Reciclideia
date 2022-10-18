@@ -16,7 +16,7 @@
         <div class="main">
         
             <div class="centralizar">
-                <a href="homepaget.php"><img class="imagens" width="100px" src="images/logo.png"></a>
+                <a href="homepage.php"><img class="imagens" width="100px" src="images/logo.png"></a>
    
 
                     <div class="trocar-senha">

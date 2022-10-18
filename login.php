@@ -18,7 +18,7 @@ $row = mysqli_num_rows($result);
  
 if($row == 1){
     $_SESSION['usuario'] = $usuario;
-    header('Location: homepaget.php');
+    header('Location: homepage.php');
     exit();
 } else{
     header('Location: index.php');

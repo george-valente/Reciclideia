@@ -144,6 +144,20 @@ img {
      
 }
 
+ul li{
+     list-style-type: circle;
+     font-size: 1.2em;
+	padding: 3px 0px;
+	color: #1f1f1f;
+}
+
+ol li{
+     list-style-type: decimal;
+     font-size: 1.2em;
+     padding: 3px 0px;
+     color: #1f1f1f;
+}
+
  :focus {
      outline: 0;
 }
