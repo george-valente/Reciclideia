@@ -41,8 +41,8 @@
          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
          <a class="active" href="homepage.php">Home</a>
          <a href="about.html">Chat</a>
-         <a href="service.html">Notícias</a>
-         <a href="blog.html">Curiosidades</a>
+         <a href="ideias.html">Curso</a>
+         <a href="homepage.php">Curiosidades</a>
         <a href="config.php">Configurações</a>
       </div>
       <div class="top_main">
@@ -227,8 +227,8 @@
                      <div class="col-lg-4">
                         <div class="services_text">
                             <i><img src="images/Ideias.png" alt="#"/></i>
-                            <h3>Ideias de confecções</h3>
-                            <p>Confira aqui ideias do que fazer com materais que você descartaria</p>
+                            <h3>Curso de confecção</h3>
+                            <p>Aprenda como fazer lindos artesanatos utilizando material reciclável</p>
                             </div>
                            <a class="read_more" href="ideias.html">Descubra mais</a>
                      </div>
@@ -524,7 +524,7 @@
                         <h3>Contatos</h3>
                         <ul>
                            <li> <img src="images/loc.png" alt="#"/> IFAM CMC</li>
-                           <li> <a href="Javascript:void(0)"><img src="images/call.png" alt="#"/> ( +92 994499328 )</a></li>
+                           <li> <a href="Javascript:void(0)"><img src="images/call.png" alt="#"/>  (+55 92 994499328) </a></li>
                            <li> <a href="Javascript:void(0)"> <img src="images/mail.png" alt="#"/> reciclideia@gmail.com</a></li>
                         </ul>
                      </div>

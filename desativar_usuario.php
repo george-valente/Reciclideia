@@ -23,7 +23,7 @@ $row = mysqli_num_rows($result);
 
 if($row==1){
     $_SESSION['senha'] = $senha = "DELETE FROM login WHERE senha= '$senha'";
-    header('Location: index.php');
+    header('Location: index.html');
     exit();
 } else{
     echo "Não foi possível desativar a conta";

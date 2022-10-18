@@ -3,7 +3,7 @@ session_start();
 include('conexao.php');
  
 if(empty($_POST['usuario'])|| empty($_POST['senha'])) {
-    header('Location:  index.php');
+    header('Location:  index.html');
     exit();
 }
  
@@ -21,6 +21,6 @@ if($row == 1){
     header('Location: homepage.php');
     exit();
 } else{
-    header('Location: index.php');
+    header('Location: index.html');
     exit();
 }

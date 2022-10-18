@@ -61,6 +61,6 @@ if (isset($_POST['senha']) && isset($_POST['nova_senha'])
 }
 
 }else{
-	header("Location:index.php");
+	header("Location:index.html");
 	exit();
 }
