@@ -33,7 +33,7 @@
                         <input type="submit" id="btn-submit" value="Confirmar">
                     </form> <br>
  
-                <a id="voltar-config" href="config.html"> Voltar </a>
+                <a id="voltar-config" href="config.php"> Voltar </a>
 
                 
 

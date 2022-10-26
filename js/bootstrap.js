@@ -2828,7 +2828,7 @@
       };
 
       _proto.setElementContent = function setElementContent($element, content) {
-        var html = this.config.html;
+        var html = this.config.php;
 
         if (typeof content === 'object' && (content.nodeType || content.jquery)) {
           // Content is a DOM node or a jQuery
