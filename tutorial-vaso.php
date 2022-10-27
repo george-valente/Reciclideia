@@ -1,5 +1,10 @@
+<?php
+      //session_start();
+      include('verifica_login.php');
+      ?>
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
    <head>
       <!-- basic -->
       <meta charset="utf-8">
@@ -35,7 +40,7 @@
          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
          <a href="homepage.php">Home</a>
          <a class="active" href="about.html">Chat</a>
-         <a href="ideias.html">Curso</a>
+         <a href="ideias.php"">Curso</a>
          <a href="homepage.php">Curiosidades</a>
         <a href="config.php">Configurações</a>
       </div>
@@ -67,8 +72,8 @@
           <div class="row">
             <div class="col-md-12">
               <div class="titlepage text_align_left">
-                <h2>Tartarugas usando <span>garrafa PET</span></h2>
-                <p>Faça lindas tartarugas com PET</p>
+                <h2>Vasos de flores utilizando<span> garrafas de vidro</span></h2>
+                <p>Use aquelas garrafas de vidro que estão sobrando para por suas flores</p>
               </div>
             </div>
           </div>
@@ -77,32 +82,26 @@
                   <div class="about_text text_align_left">
                      <h2>Materiais</h2> <br>
                       <ul>
-                        <li>Garrafas PET limpa;</li>
-                        <li>E.V.A;</li>
-                        <li>Lã ou Linha de Crochê;</li>
-                        <li>Tesoura;</li>
-                        <li>Caneta;</li>
-                        <li>Agulha;</li>
+                        <li>Garrafas de vidro sem rótulo;</li>
+                        <li>Flores;</li>
+                        <li>Tecido/Feltro;</li>
                         <li>Cola quente;</li>
-                        <li>Botão colorido;</li>
+                        <li>Botões;</li>
                       </ul> </br>
                       <h2>Passo a passo</h2> </br>
 
                       <ol>
-                        <li>Passe o molde da tartaruga escolhido para o EVA e recorte o fundo da garrafa PET</li>
-                        <li>Recorte o E.V.A no formato da tartaruga</li>
-                        <li>Com o auxílio de linha grossa, ou fio, prenda o fundo da garrafa no corpo da tartaruga</li>
-                        <li>Certifique-se de que está bem apertado nas áreas rasas</li>
-                        <li>Costure o botão no meio do fundo da garrafa PET</li>
-                        <li>Com uma caneta, desenha os olhos, a boca, a cauda, e o que desejar.</li>
+                        <li>Corte uma faixa do tecido e cole com a cola quente no centro da garrafa</li>
+                        <li>Cole os botões um a um com a cola quente</li>
+                        <li>Ponha suas flores dentro</li>
                         <li>E está pronto!</li>
                         </ol> </br>
-                       <a class="read_more" href="ideias.html">Concluído</a>
+                       <a class="read_more" href="ideias.php"">Concluído</a>
                   </div>
                </div>
                <div class="col-lg-4">
                   <div class="about_img">
-                     <figure><img class="img_responsive" src="images/tartarugas-pet.jpg" alt="#"/></figure>
+                     <figure><img class="img_responsive" src="images/vaso-vidro.jpg" alt="#"/></figure>
                   </div>
                </div>
             </div>
@@ -122,8 +121,8 @@
                         <ul>
                            <li><a href="homepage.php">Início</a></li>
                            <li><a href="homepage.php">Serviços</a></li>
-                           <li><a href="homepage.php #sobre">Sobre</a></li>
-                           <li><a href="homepage.php #noticias">Notícias</a></li>
+                           <li><a href="homepage.php">Sobre</a></li>
+                           <li><a href="homepage.php">Notícias</a></li>
                            <li><a href="homepage.php #parceiros">Parceiros</a></li>
                         </ul>
                      </div>

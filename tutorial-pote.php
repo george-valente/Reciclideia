@@ -1,5 +1,10 @@
+<?php
+      //session_start();
+      include('verifica_login.php');
+      ?>
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <!-- basic -->
@@ -37,7 +42,7 @@
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
         <a href="homepage.php">Home</a>
         <a class="active" href="about.html">Chat</a>
-        <a href="ideias.html">Curso</a>
+        <a href="ideias.php"">Curso</a>
         <a href="homepage.php">Curiosidades</a>
         <a href="config.php">Configurações</a>
     </div>
@@ -69,8 +74,8 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="titlepage text_align_left">
-                                <h2>Quadro com <span>caixas de sapato </span></h2>
-                                <p>Aprenda como fazer quadros para enfeitar sua parede com caixas de sapato</p>
+                                <h2> <span>Pote de sorvete </span>decorado</h2>
+                                <p>Aprenda como fazer um cabideiro com cabos de vassoura</p>
                             </div>
                         </div>
                     </div>
@@ -79,35 +84,34 @@
                             <div class="about_text text_align_left">
                                 <h2>Materiais</h2> <br>
                                 <ul>
-                                    <li>Tampas de caixa de sapato;</li>
-                                    <li>Papel decorativo/de revista;</li>
+                                    <li>Pote de sorvete;</li>
                                     <li>Tesoura;</li>
-                                    <li>Régua;</li>
-                                    <li>Caneta;</li>
-                                    <li>Fita;</li>
-                                    <li>Cola;</li>
-                                    <li>Tachinhas.</li>
+                                    <li>Tecido;</li>
+                                    <li>Cola branca;</li>
+                                    <li>Pincel</li>
                                 </ul>
                                 </br>
                                 <h2>Passo a passo</h2>
                                 </br>
 
                                 <ol>
-                                    <li>Corte as bordas da tampa da caixa de sapato. Faça com auxílio da caneta e régua para as medidas ficarem iguais</li>
-                                    <li>Faça uma caixa com quatro paredes</li>
-                                    <li>Passe cola por toda a tampa, e grude o papel decorativo. Com cuidado, evitando as bolhas de ar</li>
-                                    <li>Cubra toda a caixa com o papel </li>
-                                    <li>Espere secar</li>
-                                    <li>Insira as tachinhas onde desejar</li>
+                                    <li>Recorte a parte de cima do pote, nos degraus</li>
+                                    <li>Faça as marcações e recorte as alças do pote da maneira que desejar</li>
+                                    <li>Passe cola branca por todo o pote com o pincel</li>
+                                    <li>Cole o tecido por toda volta do pote, com atenção para não sobrar partes do tecido</li>
+                                    <li>Faça dois cortes nas pontas para conseguir colar melhor a parte de baixo</li>
+                                    <li>Após isso, alise todo tecido para não ficar com relevo</li>
+                                    <li>Passe a cola na parte interna do pote também e cole o que sobrou do tecido colado nas laterais para dentro</li>
+                                    <li>Com auxílio de uma tesoura pequena corte o tecido na parte das alças</li>
                                     <li>E está pronto!</li>
                                 </ol>
                                 </br>
-                                <a class="read_more" href="tela-parabens.html">Concluído</a>
+                                <a class="read_more" href="ideias.php"">Concluído</a>
                             </div>
                         </div>
                         <div class="col-lg-4">
                             <div class="about_img">
-                                <figure><img class="img_responsive" src="images/quadro-caixa.jpg" alt="#" /></figure>
+                                <figure><img class="img_responsive" src="images/pote-decorado.jpg" alt="#" /></figure>
                             </div>
                         </div>
                     </div>

@@ -1,5 +1,10 @@
+<?php
+      //session_start();
+      include('verifica_login.php');
+      ?>
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <!-- basic -->
@@ -37,7 +42,7 @@
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
         <a href="homepage.php">Home</a>
         <a class="active" href="about.html">Chat</a>
-        <a href="ideias.html">Curso</a>
+        <a href="ideias.php"">Curso</a>
         <a href="homepage.php">Curiosidades</a>
         <a href="config.php">Configurações</a>
     </div>
@@ -98,7 +103,7 @@
                                     <li>E está pronto!</li>
                                 </ol>
                                 </br>
-                                <a class="read_more" href="ideias.html">Concluído</a>
+                                <a class="read_more" href="ideias.php"">Concluído</a>
                             </div>
                         </div>
                         <div class="col-lg-4">

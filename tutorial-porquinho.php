@@ -1,5 +1,10 @@
+<?php
+      //session_start();
+      include('verifica_login.php');
+      ?>
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <!-- basic -->
@@ -37,7 +42,7 @@
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
         <a href="homepage.php">Home</a>
         <a class="active" href="about.html">Chat</a>
-        <a href="ideias.html">Curso</a>
+        <a href="ideias.php"">Curso</a>
         <a href="homepage.php">Curiosidades</a>
         <a href="config.php">Configurações</a>
     </div>
@@ -69,8 +74,8 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="titlepage text_align_left">
-                                <h2> <span>Pote de sorvete </span>decorado</h2>
-                                <p>Aprenda como fazer um cabideiro com cabos de vassoura</p>
+                                <h2>Porquinhos com <span> copos de plástico</span></h2>
+                                <p>Faça esse simples artesanato com copos de plástico</p>
                             </div>
                         </div>
                     </div>
@@ -79,34 +84,29 @@
                             <div class="about_text text_align_left">
                                 <h2>Materiais</h2> <br>
                                 <ul>
-                                    <li>Pote de sorvete;</li>
-                                    <li>Tesoura;</li>
-                                    <li>Tecido;</li>
-                                    <li>Cola branca;</li>
-                                    <li>Pincel</li>
+                                    <li>2 copos de plástico;</li>
+                                    <li>E.V.A rosa e preto (cor fica a critério);</li>
+                                    <li>Pincéis;</li>
+                                    <li>Cola quente;</li>
                                 </ul>
                                 </br>
                                 <h2>Passo a passo</h2>
                                 </br>
 
                                 <ol>
-                                    <li>Recorte a parte de cima do pote, nos degraus</li>
-                                    <li>Faça as marcações e recorte as alças do pote da maneira que desejar</li>
-                                    <li>Passe cola branca por todo o pote com o pincel</li>
-                                    <li>Cole o tecido por toda volta do pote, com atenção para não sobrar partes do tecido</li>
-                                    <li>Faça dois cortes nas pontas para conseguir colar melhor a parte de baixo</li>
-                                    <li>Após isso, alise todo tecido para não ficar com relevo</li>
-                                    <li>Passe a cola na parte interna do pote também e cole o que sobrou do tecido colado nas laterais para dentro</li>
-                                    <li>Com auxílio de uma tesoura pequena corte o tecido na parte das alças</li>
+                                    <li>Recorte o E.V.A no formato das orelhas e das patas do porquinho</li>
+                                    <li>Cole os dois copos com a cola quente </li>
+                                    <li>Cole as patas e as orelhas</li>
+                                    <li>Desenhe os olhos, o nariz e a boca</li>
                                     <li>E está pronto!</li>
                                 </ol>
                                 </br>
-                                <a class="read_more" href="ideias.html">Concluído</a>
+                                <a class="read_more" href="ideias.php"">Concluído</a>
                             </div>
                         </div>
                         <div class="col-lg-4">
                             <div class="about_img">
-                                <figure><img class="img_responsive" src="images/pote-decorado.jpg" alt="#" /></figure>
+                                <figure><img class="img_responsive" src="images/porcos-copos.jpg" alt="#" /></figure>
                             </div>
                         </div>
                     </div>
@@ -126,8 +126,8 @@
                                     <ul>
                                         <li><a href="homepage.php">Início</a></li>
                                         <li><a href="homepage.php">Serviços</a></li>
-                                        <li><a href="homepage.php #sobre">Sobre</a></li>
-                                        <li><a href="homepage.php #noticias">Notícias</a></li>
+                                        <li><a href="homepage.php">Sobre</a></li>
+                                        <li><a href="homepage.php">Notícias</a></li>
                                         <li><a href="homepage.php #parceiros">Parceiros</a></li>
                                     </ul>
                                 </div>

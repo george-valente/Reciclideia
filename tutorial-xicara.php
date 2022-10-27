@@ -1,5 +1,10 @@
+<?php
+      //session_start();
+      include('verifica_login.php');
+      ?>
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <!-- basic -->
@@ -37,7 +42,7 @@
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
         <a href="homepage.php">Home</a>
         <a class="active" href="about.html">Chat</a>
-        <a href="ideias.html">Curso</a>
+        <a href="ideias.php"">Curso</a>
         <a href="homepage.php">Curiosidades</a>
         <a href="config.php">Configurações</a>
     </div>
@@ -69,8 +74,8 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="titlepage text_align_left">
-                                <h2>Porquinhos com <span> copos de plástico</span></h2>
-                                <p>Faça esse simples artesanato com copos de plástico</p>
+                                <h2>Xícaras utilizando<span> copinhos de iogurte</span></h2>
+                                <p>Aprenda como fazer um jogo de xícaras com copinhos de iogurte</p>
                             </div>
                         </div>
                     </div>
@@ -79,29 +84,34 @@
                             <div class="about_text text_align_left">
                                 <h2>Materiais</h2> <br>
                                 <ul>
-                                    <li>2 copos de plástico;</li>
-                                    <li>E.V.A rosa e preto (cor fica a critério);</li>
-                                    <li>Pincéis;</li>
+                                    <li>Copinhos de iogurte limpos;</li>
+                                    <li>1 caixa de leite;</li>
                                     <li>Cola quente;</li>
+                                    <li>E.V.A;</li>
+                                    <li>Papelão;</li>
+                                    <li>Tesoura;</li>
+                                    <li>Enfeites de sua preferência;</li>
                                 </ul>
                                 </br>
                                 <h2>Passo a passo</h2>
                                 </br>
 
                                 <ol>
-                                    <li>Recorte o E.V.A no formato das orelhas e das patas do porquinho</li>
-                                    <li>Cole os dois copos com a cola quente </li>
-                                    <li>Cole as patas e as orelhas</li>
-                                    <li>Desenhe os olhos, o nariz e a boca</li>
+                                    <li>Recorte as bordas pontiagudas dos potes de iogurte</li>
+                                    <li>Recorte pedaços de E.V.A para por nos potes, ponha na parte superior perto da borda </li>
+                                    <li>Grude pedações de E.V.A para fazer a alça da xícara, no formato de um C, e grude na lateral do copinho</li>
+                                    <li>Faça estes dois passos com auxílio da cola quente</li>
+                                    <li>Enfeite como desejar</li>
+                                    <li>Para enfeitar a caixa de leite, cole o E.V.A por toda a caixa e ponha os enfeites que desejar</li>
                                     <li>E está pronto!</li>
                                 </ol>
                                 </br>
-                                <a class="read_more" href="ideias.html">Concluído</a>
+                                <a class="read_more" href="ideias.php"">Concluído</a>
                             </div>
                         </div>
                         <div class="col-lg-4">
                             <div class="about_img">
-                                <figure><img class="img_responsive" src="images/porcos-copos.jpg" alt="#" /></figure>
+                                <figure><img class="img_responsive" src="images/xicara-copinho.JPG" alt="#" /></figure>
                             </div>
                         </div>
                     </div>
@@ -121,8 +131,8 @@
                                     <ul>
                                         <li><a href="homepage.php">Início</a></li>
                                         <li><a href="homepage.php">Serviços</a></li>
-                                        <li><a href="homepage.php">Sobre</a></li>
-                                        <li><a href="homepage.php">Notícias</a></li>
+                                        <li><a href="homepage.php #sobre">Sobre</a></li>
+                                        <li><a href="homepage.php #noticias">Notícias</a></li>
                                         <li><a href="homepage.php #parceiros">Parceiros</a></li>
                                     </ul>
                                 </div>

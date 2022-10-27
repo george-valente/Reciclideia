@@ -1,5 +1,10 @@
+<?php
+      //session_start();
+      include('verifica_login.php');
+      ?>
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
    <head>
       <!-- basic -->
       <meta charset="utf-8">
@@ -8,7 +13,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="viewport" content="initial-scale=1, maximum-scale=1">
       <!-- site metas -->
-      <title>Parabéns</title>
+      <title>Tutorial</title>
       <meta name="keywords" content="">
       <meta name="description" content="">
       <meta name="author" content="">
@@ -35,7 +40,7 @@
          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
          <a href="homepage.php">Home</a>
          <a class="active" href="about.html">Chat</a>
-         <a href="homepage.php">Notícias</a>
+         <a href="ideias.php"">Curso</a>
          <a href="homepage.php">Curiosidades</a>
         <a href="config.php">Configurações</a>
       </div>
@@ -52,7 +57,6 @@
                 
                      <ul class="email text_align_right">
                         <li> <button class="openbtn" onclick="openNav()"><img src="images/menu_btn.png"></button></li>
-                        
                      </ul>
       </header>
     </div>
@@ -68,16 +72,38 @@
           <div class="row">
             <div class="col-md-12">
               <div class="titlepage text_align_left">
-                <h2>Parabéns! Você concluiu o<span> Curso de confecção :) </span></h2>
+                <h2>Cofrinho utilizando<span> lata</span></h2>
+                <p>Tutorial de como fazer um lindo cofrinho utilizando uma lata de leite</p>
               </div>
             </div>
           </div>
           <div class="row">
                <div class="col-lg-8">
-                  <iframe id="myPDF" src="certificado_reciclideia.pdf" frameborder="0"></iframe>
+                  <div class="about_text text_align_left">
+                     <h2>Materiais</h2> <br>
+                      <ul>
+                        <li>1 lata de leite;</li>
+                        <li>Retalhos de papéis coloridos que você goste;</li>
+                        <li>Faca (Cuidado, se preciso peça ajuda de um adulto);</li>
+                        <li>Tesoura;</li>
+                        <li>Pistola de cola quente;</li>
+                        <li>Enfeites de sua preferência;</li>
+                      </ul> </br>
+                      <h2>Passo a passo</h2> </br>
+
+                      <ol>
+                        <li>Passe cola quente por toda a lata e encape com os retalhos de papel</li>
+                        <li>Faça um bom acabamento com os papéis e se tiver, cole enfeites que desejar</li>
+                        <li>Com auxílio de uma faca, faça um furo no centro no centro da tampa, onde possa despejar as moedas</li>
+                        <li>Cole um círculo de cartolina na tampa.</li>
+                        <li>E está pronto!</li>
+                        </ol> </br>
+                       <a class="read_more" href="ideias.php"">Concluído</a>
+                  </div>
                </div>
                <div class="col-lg-4">
                   <div class="about_img">
+                     <figure><img class="img_responsive" src="images/cofrinho-latadeleite.jpg" alt="#"/></figure>
                   </div>
                </div>
             </div>

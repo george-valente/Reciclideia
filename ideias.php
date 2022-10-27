@@ -1,5 +1,10 @@
+<?php
+      //session_start();
+      include('verifica_login.php');
+      ?>
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
    <head>
       <!-- basic -->
       <meta charset="utf-8">
@@ -35,7 +40,7 @@
          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
          <a href="homepage.php">Home</a>
          <a href="about.html">Chat</a>
-         <a href="ideias.html">Curso</a>
+         <a href="ideias.php"">Curso</a>
          <a class="active" href="blog.html">Curiosidades</a>
         <a href="config.php">Configurações</a>
       </div>
@@ -80,7 +85,7 @@
                     <p>Primeiro nível </p>
                     </div>
                   </div>
-                  <a class="read_more" href="tutorial-cofrinho.html">Tutorial</a>
+                  <a class="read_more" href="tutorial-cofrinho.php">Tutorial</a>
                </div>
                <div class="col-lg-6">
                   <div class="latest text_align_left">
@@ -91,7 +96,7 @@
                     <p> Segundo nível</p>
                     </div>
                   </div>
-                  <a class="read_more" href="tutorial-tartarugas.html">Tutorial</a>
+                  <a class="read_more" href="tutorial-tartarugas.php">Tutorial</a>
                </div>
 
                <div class="col-lg-6">
@@ -103,7 +108,7 @@
                     <p>Terceiro nível</p>
                     </div>
                   </div>
-                  <a class="read_more" href="tutorial-vaso.html">Tutorial</a>
+                  <a class="read_more" href="tutorial-vaso.php">Tutorial</a>
                </div>
 
                <div class="col-lg-6">
@@ -115,7 +120,7 @@
                     <p>Quarto nível</p>
                     </div>
                   </div>
-                  <a class="read_more" href="tutorial-carrinho.html">Tutorial</a>
+                  <a class="read_more" href="tutorial-carrinho.php">Tutorial</a>
                </div>
 
                <div class="col-lg-6">
@@ -127,7 +132,7 @@
                     <p>Quinto nível</p>
                     </div>
                   </div>
-                  <a class="read_more" href="tutorial-vaso.html">Tutorial</a>
+                  <a class="read_more" href="tutorial-vaso.php">Tutorial</a>
                </div>
 
                <div class="col-lg-6">
@@ -139,7 +144,7 @@
                     <p>Sexto nível</p>
                     </div>
                   </div>
-                  <a class="read_more" href="tutorial-porquinho.html">Tutorial</a>
+                  <a class="read_more" href="tutorial-porquinho.php">Tutorial</a>
                </div>
 
                <div class="col-lg-6">
@@ -151,7 +156,7 @@
                     <p>Sétimo nível</p>
                     </div>
                   </div>
-                  <a class="read_more" href="tutorial-xicara.html">Tutorial</a>
+                  <a class="read_more" href="tutorial-xicara.php">Tutorial</a>
                </div>
 
                <div class="col-lg-6">
@@ -163,7 +168,7 @@
                     <p>Oitavo nível</p>
                     </div>
                   </div>
-                  <a class="read_more" href="tutorial-cabideiro.html">Tutorial</a>
+                  <a class="read_more" href="tutorial-cabideiro.php">Tutorial</a>
                </div>
 
                <div class="col-lg-6">
@@ -175,7 +180,7 @@
                     <p>Nono nível</p>
                     </div>
                   </div>
-                  <a class="read_more" href="tutorial-pote.html">Tutorial</a>
+                  <a class="read_more" href="tutorial-pote.php">Tutorial</a>
                </div>
 
                <div class="col-lg-6">
@@ -187,7 +192,7 @@
                     <p>Décimo nível</p>
                     </div>
                   </div>
-                  <a class="read_more" href="tutorial-quadro.html">Tutorial</a>
+                  <a class="read_more" href="tutorial-quadro.php">Tutorial</a>
                </div> </br>
 
             </div>

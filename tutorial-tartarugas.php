@@ -1,5 +1,10 @@
+<?php
+      //session_start();
+      include('verifica_login.php');
+      ?>
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
    <head>
       <!-- basic -->
       <meta charset="utf-8">
@@ -35,7 +40,7 @@
          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
          <a href="homepage.php">Home</a>
          <a class="active" href="about.html">Chat</a>
-         <a href="ideias.html">Curso</a>
+         <a href="ideias.php"">Curso</a>
          <a href="homepage.php">Curiosidades</a>
         <a href="config.php">Configurações</a>
       </div>
@@ -67,8 +72,8 @@
           <div class="row">
             <div class="col-md-12">
               <div class="titlepage text_align_left">
-                <h2>Cofrinho utilizando<span> lata</span></h2>
-                <p>Tutorial de como fazer um lindo cofrinho utilizando uma lata de leite</p>
+                <h2>Tartarugas usando <span>garrafa PET</span></h2>
+                <p>Faça lindas tartarugas com PET</p>
               </div>
             </div>
           </div>
@@ -77,28 +82,32 @@
                   <div class="about_text text_align_left">
                      <h2>Materiais</h2> <br>
                       <ul>
-                        <li>1 lata de leite;</li>
-                        <li>Retalhos de papéis coloridos que você goste;</li>
-                        <li>Faca (Cuidado, se preciso peça ajuda de um adulto);</li>
+                        <li>Garrafas PET limpa;</li>
+                        <li>E.V.A;</li>
+                        <li>Lã ou Linha de Crochê;</li>
                         <li>Tesoura;</li>
-                        <li>Pistola de cola quente;</li>
-                        <li>Enfeites de sua preferência;</li>
+                        <li>Caneta;</li>
+                        <li>Agulha;</li>
+                        <li>Cola quente;</li>
+                        <li>Botão colorido;</li>
                       </ul> </br>
                       <h2>Passo a passo</h2> </br>
 
                       <ol>
-                        <li>Passe cola quente por toda a lata e encape com os retalhos de papel</li>
-                        <li>Faça um bom acabamento com os papéis e se tiver, cole enfeites que desejar</li>
-                        <li>Com auxílio de uma faca, faça um furo no centro no centro da tampa, onde possa despejar as moedas</li>
-                        <li>Cole um círculo de cartolina na tampa.</li>
+                        <li>Passe o molde da tartaruga escolhido para o EVA e recorte o fundo da garrafa PET</li>
+                        <li>Recorte o E.V.A no formato da tartaruga</li>
+                        <li>Com o auxílio de linha grossa, ou fio, prenda o fundo da garrafa no corpo da tartaruga</li>
+                        <li>Certifique-se de que está bem apertado nas áreas rasas</li>
+                        <li>Costure o botão no meio do fundo da garrafa PET</li>
+                        <li>Com uma caneta, desenha os olhos, a boca, a cauda, e o que desejar.</li>
                         <li>E está pronto!</li>
                         </ol> </br>
-                       <a class="read_more" href="ideias.html">Concluído</a>
+                       <a class="read_more" href="ideias.php"">Concluído</a>
                   </div>
                </div>
                <div class="col-lg-4">
                   <div class="about_img">
-                     <figure><img class="img_responsive" src="images/cofrinho-latadeleite.jpg" alt="#"/></figure>
+                     <figure><img class="img_responsive" src="images/tartarugas-pet.jpg" alt="#"/></figure>
                   </div>
                </div>
             </div>

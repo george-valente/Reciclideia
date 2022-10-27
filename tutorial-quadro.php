@@ -1,5 +1,10 @@
+<?php
+      //session_start();
+      include('verifica_login.php');
+      ?>
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <!-- basic -->
@@ -37,7 +42,7 @@
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
         <a href="homepage.php">Home</a>
         <a class="active" href="about.html">Chat</a>
-        <a href="ideias.html">Curso</a>
+        <a href="ideias.php"">Curso</a>
         <a href="homepage.php">Curiosidades</a>
         <a href="config.php">Configurações</a>
     </div>
@@ -69,8 +74,8 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="titlepage text_align_left">
-                                <h2>Xícaras utilizando<span> copinhos de iogurte</span></h2>
-                                <p>Aprenda como fazer um jogo de xícaras com copinhos de iogurte</p>
+                                <h2>Quadro com <span>caixas de sapato </span></h2>
+                                <p>Aprenda como fazer quadros para enfeitar sua parede com caixas de sapato</p>
                             </div>
                         </div>
                     </div>
@@ -79,34 +84,35 @@
                             <div class="about_text text_align_left">
                                 <h2>Materiais</h2> <br>
                                 <ul>
-                                    <li>Copinhos de iogurte limpos;</li>
-                                    <li>1 caixa de leite;</li>
-                                    <li>Cola quente;</li>
-                                    <li>E.V.A;</li>
-                                    <li>Papelão;</li>
+                                    <li>Tampas de caixa de sapato;</li>
+                                    <li>Papel decorativo/de revista;</li>
                                     <li>Tesoura;</li>
-                                    <li>Enfeites de sua preferência;</li>
+                                    <li>Régua;</li>
+                                    <li>Caneta;</li>
+                                    <li>Fita;</li>
+                                    <li>Cola;</li>
+                                    <li>Tachinhas.</li>
                                 </ul>
                                 </br>
                                 <h2>Passo a passo</h2>
                                 </br>
 
                                 <ol>
-                                    <li>Recorte as bordas pontiagudas dos potes de iogurte</li>
-                                    <li>Recorte pedaços de E.V.A para por nos potes, ponha na parte superior perto da borda </li>
-                                    <li>Grude pedações de E.V.A para fazer a alça da xícara, no formato de um C, e grude na lateral do copinho</li>
-                                    <li>Faça estes dois passos com auxílio da cola quente</li>
-                                    <li>Enfeite como desejar</li>
-                                    <li>Para enfeitar a caixa de leite, cole o E.V.A por toda a caixa e ponha os enfeites que desejar</li>
+                                    <li>Corte as bordas da tampa da caixa de sapato. Faça com auxílio da caneta e régua para as medidas ficarem iguais</li>
+                                    <li>Faça uma caixa com quatro paredes</li>
+                                    <li>Passe cola por toda a tampa, e grude o papel decorativo. Com cuidado, evitando as bolhas de ar</li>
+                                    <li>Cubra toda a caixa com o papel </li>
+                                    <li>Espere secar</li>
+                                    <li>Insira as tachinhas onde desejar</li>
                                     <li>E está pronto!</li>
                                 </ol>
                                 </br>
-                                <a class="read_more" href="ideias.html">Concluído</a>
+                                <a class="read_more" href="tela-parabens.php">Concluído</a>
                             </div>
                         </div>
                         <div class="col-lg-4">
                             <div class="about_img">
-                                <figure><img class="img_responsive" src="images/xicara-copinho.JPG" alt="#" /></figure>
+                                <figure><img class="img_responsive" src="images/quadro-caixa.jpg" alt="#" /></figure>
                             </div>
                         </div>
                     </div>

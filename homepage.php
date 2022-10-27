@@ -4,7 +4,7 @@
       ?>
 
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
    <head>
       <!-- basic -->
       <meta charset="utf-8">
@@ -41,9 +41,9 @@
          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
          <a class="active" href="homepage.php">Home</a>
          <a href="about.html">Chat</a>
-         <a href="ideias.html">Curso</a>
+         <a href="ideias.php">Curso</a>
          <a href="homepage.php">Curiosidades</a>
-        <a href="config.php">Configurações</a>
+        <a href="teste-pic.php">Configurações</a>
       </div>
       <div class="top_main">
       <div class="head_top">
@@ -230,7 +230,7 @@
                             <h3>Curso de confecção</h3>
                             <p>Aprenda como fazer lindos artesanatos utilizando material reciclável</p>
                             </div>
-                           <a class="read_more" href="ideias.html">Descubra mais</a>
+                           <a class="read_more" href="ideias.php">Descubra mais</a>
                      </div>
                      <div class="col-lg-4">
                         <div class="services_text">
