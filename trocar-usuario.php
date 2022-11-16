@@ -8,7 +8,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title> Desativar </title>
+        <title> Trocar usuário </title>
         <link rel="stylesheet" type="text/css" href="css/style-trocar-senha.css">
     </head>
 
@@ -21,13 +21,11 @@
 
                     <div class="trocar-senha">
                     
-                    <form action="troca_senha.php" method="post">
-                        <label> Trocar senha </label>
-                        <input class="inputForm"  placeholder="Senha atual" type="password" name="senha">
+                    <form action="troca_usuario.php" method="post">
+                        <label> Trocar usuário </label>
+                        <input class="inputForm"  placeholder="Senha" type="password" name="senha">
                 <br>
-                        <input class="inputForm" placeholder="Nova senha" type="password" name="nova_senha">
-                <br>
-                        <input class="inputForm" placeholder="Confirme a senha" type="password" name="confirma_senha">
+                        <input class="inputForm" placeholder="Novo Usuário" type="text" name="novo_usuario">
                 <br>
 
                         <input type="submit" id="btn-submit" value="Confirmar">

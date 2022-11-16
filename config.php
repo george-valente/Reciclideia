@@ -18,7 +18,8 @@
             <div class="centralizar">
 
                 <div id="area-de-voltar"> 
-                    <img width="40px" src="images/voltar.png">
+                <a href="homepage.php"> <h1> < </h1> </a>
+                    
                 </div>
 
         <h2>Meu Perfil</h2> 
@@ -31,18 +32,19 @@
 
 
                     <form action="" method="post">
-                        <input class="inputForm" placeholder="Trocar Usuário" type="text" name="usuario">
-                 <br> 
+                        <?php
+                        echo $_SESSION['usuario'];
+                        ?>
                         <input class="inputForm"  placeholder="Trocar E-mail" type="text" name="email">
                 <br>
 
-                        <input type="submit" id="btn-submit" value="Atualizar informações">
+                        <input type="submit" id="btn-submit" value="Atualizar">
                     </form> <br>
 
                 
                     <a id="sair-conta" href="teste.php"> Sair </a> 
                     <a id="desativar-conta" href="desativar.html"> Desativar minha conta </a> 
-                    <a id="trocar-senha" href="trocar-senha.php">Trocar senha</a> 
+                    <a id="trocar-senha" href="trocar-usuario.php">Trocar usuário</a> 
 
                 </div>
                 

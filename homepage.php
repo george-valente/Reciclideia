@@ -43,7 +43,7 @@
          <a href="about.html">Chat</a>
          <a href="ideias.php">Curso</a>
          <a href="homepage.php">Curiosidades</a>
-        <a href="teste-pic.php">Configurações</a>
+        <a href="config.php">Configurações</a>
       </div>
       <div class="top_main">
       <div class="head_top">
@@ -246,7 +246,7 @@
                             <h3>Pontos de reciclagem</h3>
                             <p>Fique por dentro das notícias sobre a reciclagem em Manaus e no Amazonas</p>
                             </div>
-                           <a class="read_more" href="pontos-coleta.html">Descubra mais</a>
+                           <a class="read_more" href="pontos-coleta.php">Descubra mais</a>
                      </div>
                   </div>
                </div>
@@ -512,9 +512,9 @@
                         <h3>Menu</h3>
                         <ul>
                            <li><a href="#inicio">Início</a></li>
-                           <li><a href="about.html">Serviços</a></li>
-                           <li><a href="service.html">Sobre</a></li>
-                           <li><a href="blog.html">Notícias</a></li>
+                           <li><a href="#servicos">Serviços</a></li>
+                           <li><a href="#sobre">Sobre</a></li>
+                           <li><a href="#noticias">Notícias</a></li>
                            <li><a href="#parceiros">Parceiros</a></li>
                         </ul>
                      </div>
@@ -534,10 +534,8 @@
                      <div class="Informa conta">
                         <h3>Redes sociais</h3>
                        <ul class="social_icon text_align_center">
-                        <li> <a href="Javascript:void(0)"><i class="fa fa-facebook-f"></i></a></li>
                         <li> <a href="Javascript:void(0)"><i class="fa fa-twitter"></i></a></li>
-                        <li> <a href="Javascript:void(0)"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-                        <li> <a href="https://www.instagram.com/_amandita_teles/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        <li> <a href="https://www.instagram.com/reciclideia/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                      </ul>
                      </div>
                     
