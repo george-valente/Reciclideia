@@ -43,7 +43,6 @@
         <a href="homepage.php">Home</a>
         <a class="active" href="about.html">Chat</a>
         <a href="ideias.php"">Curso</a>
-        <a href="homepage.php">Curiosidades</a>
         <a href="config.php">Configurações</a>
     </div>
     <div class="top_main">

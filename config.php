@@ -24,18 +24,27 @@
 
         <h2>Meu Perfil</h2> 
 
+
         <div id="imagem-perfil">
-        <img src="images/foto-perfil.png"> <br> 
-        </div>
+        <img src="images/perfill.png"> <br> 
+
+
+
+        <?php
+                        echo $_SESSION['usuario'];
+                        ?>
+        </div> <br>
+
+
 
         <div class="config"></div>
 
 
-                    <form action="" method="post">
-                        <?php
-                        echo $_SESSION['usuario'];
-                        ?>
-                        <input class="inputForm"  placeholder="Trocar E-mail" type="text" name="email">
+                    <form action="troca_email.php" method="post">
+
+                        <input class="inputForm"  placeholder="Trocar E-mail" type="text" name="novo_email">
+                <br>
+                        <input class="inputForm"  placeholder="Confirme sua senha" type="password" name="senha">
                 <br>
 
                         <input type="submit" id="btn-submit" value="Atualizar">
@@ -48,8 +57,6 @@
 
                 </div>
                 
-
-
             </div>
 
         </body>

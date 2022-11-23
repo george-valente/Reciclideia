@@ -40,8 +40,7 @@
          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
          <a href="homepage.php">Home</a>
          <a href="about.html">Chat</a>
-         <a href="ideias.php"">Curso</a>
-         <a class="active" href="blog.html">Curiosidades</a>
+         <a href="ideias.php">Curso</a>
         <a href="config.php">Configurações</a>
       </div>
       <div class="top_main">

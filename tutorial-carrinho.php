@@ -41,7 +41,6 @@
          <a href="homepage.php">Home</a>
          <a class="active" href="about.html">Chat</a>
          <a href="homepage.php">Notícias</a>
-         <a href="homepage.php">Curiosidades</a>
         <a href="config.php">Configurações</a>
       </div>
       <div class="top_main">

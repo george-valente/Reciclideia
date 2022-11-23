@@ -23,9 +23,9 @@
                     
                     <form action="troca_usuario.php" method="post">
                         <label> Trocar usuário </label>
-                        <input class="inputForm"  placeholder="Senha" type="password" name="senha">
+                        <input class="inputForm"  placeholder="Novo Usuário" type="text" name="novo_usuario">
                 <br>
-                        <input class="inputForm" placeholder="Novo Usuário" type="text" name="novo_usuario">
+                        <input class="inputForm" placeholder="Senha" type="password" name="senha">
                 <br>
 
                         <input type="submit" id="btn-submit" value="Confirmar">

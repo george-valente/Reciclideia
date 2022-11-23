@@ -1,26 +1,20 @@
 <?php
 include('conexao.php');
 
-//testando uma verificação se o email existe
-    function verifica_dados($conexao){
-        if(isset($_POST['resetar-senha']) && $_POST['resetar-senha'] == "form"){
-            $email = addslashes($_POST['email']);
-            $sql = $conexao->prepare("SELECT * FROM login WHERE email = ?");
-            $sql->bind_param("s", $email);
-            $sql->execute();
-            $get = $sql->get_result();
-            $total = $get->num_rows;
+$dados = filter_input_array(INPUT_POST, FILTER_DEFAULT);
+if (!empty($dados['resetar-senha'])) {
+    var_dump($dados);
+    $query_usuario = "SELECT id, nome, email FROM login WHERE email =:email";
+    $result_usuario = $conexao->prepare($query_usuario);
+    $result_usuario->bindParam(':email', $dados['email'], PDO::PARAM_STR);
+    $result_usuario->execute();
 
-            if($total > 0){
-                $dados = $get->fetch_assoc();
-                enviar_email($conexao,$dados['email']);
-            }else{
+    if(($result_usuario) AND ($result_usuario->rowCount() != 0)){
+        $row_usuario = $result_usuario->fetch(PDO::FETCH_ASSOC);
+        $chave_recuperar_senha = password_hash($row_usuario['id'], PASSWORD_DEFAULT);
+        echo "Chave $chave_recuperar_senha <br>";
 
-            }
-        }
     }
 
-    function enviar_email($conexao,$email){
-        echo $email;
-    }
+}
 ?>
