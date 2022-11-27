@@ -237,7 +237,7 @@
                             <h3> Chat para interação</h3>
                             <p>Poste suas confecções com materiais recicláveis e interaja com outros usuários</p>
                             </div>
-                           <a class="read_more" href="services.html">Descubra mais</a>
+                           <a class="read_more" href="tela-chat.php">Descubra mais</a>
                      </div>
                      <div class="col-lg-4">
                         <div class="services_text">
@@ -515,6 +515,7 @@
                            <li><a href="#sobre">Sobre</a></li>
                            <li><a href="#noticias">Notícias</a></li>
                            <li><a href="#parceiros">Parceiros</a></li>
+                           <li><a href="politica.html">Política de privacidade</a></li>
                         </ul>
                      </div>
                   </div>
